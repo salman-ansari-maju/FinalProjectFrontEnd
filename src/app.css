@@ -1,0 +1,395 @@
+.APP
+{
+  background-size: cover;
+}
+
+body {
+  background-color: rgb(233, 162, 233);
+  /* height: 100vh;
+  display: flex;
+  flex-direction: column; */
+}
+
+/* main {
+  flex-grow: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+} */
+.navbar {
+  height: 60px;
+  background-color: #504152;
+  color: rgb(197, 197, 197)  ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navBtns{
+
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 13px 25px;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background: #819dbb;
+    border-radius: 25px;
+    margin-left: 20px;
+    transition: all 0.25s ease;
+
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.customer{
+    width: 500px;
+    height: 100px;
+    color: black;
+    background-color: #E7E7E7;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px
+}
+.cuscompo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start
+}
+
+/* .logo {
+  font-size: 20px;
+  font-weight: bold;
+} */
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 00px;
+}
+
+.listItem {
+  margin-right: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.home {
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+  box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+}
+
+.img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 20px 0px;
+}
+
+.desc {
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+.cardButton {
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(204, 188, 224, 0.678);
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.postDesc {
+  padding: 0 100px;
+  font-size: 24px;
+  font-weight: 300;
+  color: gray;
+  margin-top: 50px;
+}
+
+.postLongDesc {
+  padding: 100px;
+  padding-top: 50px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.wrapper {
+  width: 40%;
+  height: 75%;
+  /* -webkit-box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1);
+  box-shadow: 0px 5px 33px -21px rgba(66, 68, 90, 1); */
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #E7E7E7;
+}
+
+
+.left,.right{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.or{
+  border: 2px solid lightgray;
+  border-radius: 50%;
+  padding: 10px;
+  color: gray;
+  background-color: white;
+  font-weight: bold;
+}
+
+.line{
+  width: 0.5px;
+  height: 70%;
+  background-color: lightgray;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+}
+
+.loginButton{
+  height: 20px;
+  width: 230px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+input{
+  height: 5px;
+  width: 250px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  resize: none;
+
+}
+
+.login{
+  background-color: rgb(197, 197, 252);
+  color: white;
+  border: 2px solid #ccc;
+  width: 190px;
+  height: 10px;
+  
+}
+.google{
+  background-color: white;
+}
+h3{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+input{
+  width: 200px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.submit{
+  width: 200px;
+  background-color: rgba(128, 0, 128, 0.671);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.loginTitle{
+  position: absolute;
+  top: 150px;
+  color:black
+}
+
+.link{
+  color: inherit;
+  text-decoration: none;
+}
+
+.box{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  flex-Direction: column;
+  background-color: #E7E7E7;
+  border-radius: 20px;
+  justify-content: center;
+}
+.loginpage{
+  height: calc(107.5vh - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maindiv{
+  width: 30%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #E7E7E7;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+@media screen and (max-width: 992px) {
+  .card {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .wrapper {
+    width: 65%;
+    height: 90%;
+    /* flex-direction: column; */
+  }
+
+  .loginTitle {
+    display: none;
+  }
+
+  .center {
+    width: 100%;
+    position: relative;
+  }
+
+  .left {
+    padding: 20px;
+  }
+
+  .right {
+    padding: 20px;
+  }
+
+  .line {
+    height: 0.5px;
+    width: 300px;
+  }
+}
